@@ -1,0 +1,64 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+#main {
+    width: 95%;
+    margin: 20px auto;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#title {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#title h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#img-div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+    margin: 15px;
+}
+
+#tribute-info {
+    width: 70%;
+    margin: 45px auto;
+}
+
+#tribute-info h3 {
+    text-align: center;
+}
+
+ul {
+    margin: 50px 0;
+}
+
+li {
+    line-height: 2.1;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+#footer {
+    text-align: center;
+    font-weight: 900;
+}
