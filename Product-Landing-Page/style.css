@@ -1,13 +1,148 @@
 * {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
 }
 
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
 
+header img {
+    height: 34px;
+    width: 300px;
+    align-self: center;
+}
 
+header nav {
+    width: 50%;
+    align-self: center;
+}
 
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+}
 
+/*content*/
+content {
+    display: flex;
+    flex-direction: column;
+}
 
+section {
+    align-self: center;
+    margin: 40px;
+}
 
-@media screen {
-    
+#get-started {
+    display: flex;
+    flex-direction: column;
+}
+
+#get-started form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 70%;
+    margin: 15px auto;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+form button {
+    width: 40%;
+    height: 35px;
+    margin: auto;
+    font-weight: 700;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 9px;
+    border: none;
+    background-color: rgb(255, 187, 0);
+    color: black;
+}
+
+#features div{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#features div div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+i.fa {
+    position: relative;
+    margin-top: 10px;
+    font-size: 60px;
+    color: coral;
+    padding: 15px;
+}
+
+#pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+.box .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e0e0e0;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.box .price {
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.box .detail {
+    padding: 20px;
+}
+
+.detail p {
+    padding: 5px 0;
+}
+
+footer {
+    height: 80px;
+    background-color: #e0e0e0;
+    display: grid;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+    content, footer {
+        max-width: 50%;
+        margin: auto;
+    }
 }

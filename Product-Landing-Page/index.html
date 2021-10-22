@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500&display=swap" rel="stylesheet">
     <title>Product Landing Page</title>
 </head>
 <body>
     <header id="header">
         <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
-        <nav id="nab-bar">
+        <nav id="nav-bar">
             <ul>
                 <li href="#features" class="nav-link">Features</li>
                 <li href="#how-it-works" class="nav-link">How It Works</li>
@@ -33,18 +33,24 @@
         <section id="features">
             <div>
                 <i class="fa fa-fire"></i>
-                <h2>Premium Materials</h2>
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                <div>
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
             </div>
             <div>
                 <i class="fa fa-truck"></i>
-                <h2>Fast Shipping</h2>
-                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                <div>
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
             </div>
             <div>
                 <i class="fa fa-battery"></i>
-                <h2>Quality Assurance</h2>
-                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                <div>
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
             </div>
         </section>
         <section id="how-it-works">
@@ -53,7 +59,7 @@
         <section id="pricing">
             <div class="box">
                 <div class="title">
-                    TENOR TROMBONE
+                    tenor trombone
                 </div>
                 <div class="price">
                     $600
@@ -68,7 +74,7 @@
             </div>
             <div class="box">
                 <div class="title">
-                    BASS TROMBONE
+                    bass trombone
                 </div>
                 <div class="price">
                     $900
@@ -83,15 +89,14 @@
             </div>
             <div class="box">
                 <div class="title">
-                    VALVE TROMBONE
-
+                    valve trombone
                 </div>
                 <div class="price">
                     $1200
                 </div>
                 <div class="detail">
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum.</p>
+                    <p>Plays similar to a Trumpet</p>
+                    <p>Great for Jazz Bands</p>
                     <p>Lorem ipsum dolor.</p>
                     <p>Lorem ipsum.</p>
                 </div>
@@ -100,12 +105,14 @@
         </section>
     </content>
     <footer>
-        <ul>
-            <li class="link">Privacy</li>
-            <li class="link">Terms</li>
-            <li class="link">Contact</li>
-        </ul>
-        <p>&#169; Copyright 2016, Original Trombones</p>
+        <div>
+            <ul>
+                <li class="link">Privacy</li>
+                <li class="link">Terms</li>
+                <li class="link">Contact</li>
+            </ul>
+            <p>&#169; Copyright 2016, Original Trombones</p>
+        </div>
     </footer>
 </body>
 </html>
