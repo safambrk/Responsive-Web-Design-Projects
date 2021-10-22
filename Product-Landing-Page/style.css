@@ -28,6 +28,11 @@ ul {
     font-weight: 500;
 }
 
+ul a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 /*content*/
 content {
     display: flex;

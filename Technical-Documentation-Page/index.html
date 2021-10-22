@@ -5,10 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,200;0,300;0,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
     <title>Product Landing Page</title>
 </head>
 <body>
-    <h1>Technical Documentation Page</h1>
+    <header>
+        <h1>JS Documentation</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#hello-world">Hello world</a></li>
+            <li><a href="#data-types">Data types</a></li>
+            <li><a href="#reference">Reference</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+            <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+            <ul>
+                <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+                <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+            </ul>
+        </section>
+
+        <section id="hello-world">
+            <h2>Hello world</h2>
+            <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+            <div class="code">
+                <p>function greetMe(yourName) { alert("Hello " + yourName); }</p>
+                <p>greetMe("World");</p>
+            </div>
+            <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+            </p>
+        </section>
+
+        <section id="data-types">
+            <h2>Data types</h2>
+            <p>The latest ECMAScript standard defines seven data types:</p>
+            <ul>
+                <li>
+                    Six data types that are primitives:
+                    <ul>
+                        <li>
+                            Boolean. true and false.
+                        </li>
+                        <li>
+                            null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.
+                        </li>
+                        <li>
+                            undefined. A top-level property whose value is undefined.
+                        </li>
+                        <li>
+                            Number. 42 or 3.14159.
+                        </li>
+                        <li>
+                            String. "Howdy"
+                        </li>
+                        <li>
+                            Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    and Object
+                </li>
+            </ul>
+            <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
+        </section>
+
+        <section id="reference">
+            <h2>Reference</h2>
+            <ul>
+                <li>
+                    All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
